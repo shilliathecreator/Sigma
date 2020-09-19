@@ -9,7 +9,7 @@
 Phishing Tool Coded in Simple HTML.
 </p>
 <p align="center">
-FACEBOOK | TWITTER | INSTAGRAM
+FACEBOOK | TWITTER | INSTAGRAM | NETFLIX | PAYPAL
 </p>
 
 
