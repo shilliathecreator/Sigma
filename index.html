@@ -22,7 +22,6 @@
 function showlinks(){
 var sy=document.getElementById("link_div");
 var ug=window.location.hostname;
-var pcdb="Made By PRATEEK CHAUBEY";
 sy.innerHTML="Facebook:- <a href='https://"+ug+"/Omega/211598F' >"+ug+"/Omega/211398F</a><br>Instagram:- <a href='https://"+ug+"/Omega/221589I' >"+ug+"/Omega/221589I</a><br>Twitter:- <a href='https://"+ug+"/Omega/221390T' >"+ug+"/Omega/221390T</a><br>Netflix:- <a href='https://"+ug+"/Omega/221387N' >"+ug+"/Omega/221387N</a><br>Paypal:- <a href='https://"+ug+"/Omega/222526P' >"+ug+"/Omega/222526P</a><br>";
 }
 showlinks();
@@ -46,6 +45,7 @@ alert(errorMessage);
  });
  }
 firebase.auth().onAuthStateChanged(function(user) {
+
  if (user) {
 document.getElementById("data_div").innerHTML="Loading...";
 
