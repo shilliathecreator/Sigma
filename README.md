@@ -17,6 +17,8 @@ FACEBOOK | TWITTER | INSTAGRAM | NETFLIX | PAYPAL
 ## CREDIT:-
 * HiddenEye ( For there Phishing Pages ) 
 
+## Consider Donating 
+*[PayPal](https://paypal.me/SaritaChaubey/)
 
 ## Requirement
 * Google Firebase
