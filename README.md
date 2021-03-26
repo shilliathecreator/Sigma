@@ -22,7 +22,12 @@ FACEBOOK | TWITTER | INSTAGRAM | NETFLIX | PAYPAL
  1. Now copy the Firebase Config of the Web app.
  1. After that go to Realtime Databse Menu and Create New DataBase.
  1. Go to Realtime Database rules and set ```.read``` and ```.write``` to ```true```
-
+ 1. Now Go to Authentication Section and enable Email And Password Sign In.
+ 1. After That in users menu add a new user with email ```admin@admin.io``` and choose your password.
+ 1. Now your Firebase is ready After that Fork This Repository(https://GitHub.com/Th30neAnd0nly/Sigma) .
+ 1. Open app.js file and paste the Config that you have copied in step 2.
+ 1. Go to settings of the repository To setup GitHub Pages and select master branch as source.
+ 1. Now your website is ready.
 
 ## Consider Donating 
 * [PayPal](https://paypal.me/SaritaChaubey/)
