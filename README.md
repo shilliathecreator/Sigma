@@ -2,7 +2,7 @@
   <a><img title="Built With Love" src="https://forthebadge.com/images/badges/built-with-love.svg" ></a>
  </p>
 <p align="center" style="font-weight:bolder;font-size:50px">
-<center><h1 align="center" >OMEGA</h1></center>
+<center><h1 align="center" >SIGMA</h1></center>
 </p>
 
 <p align="center">
@@ -16,6 +16,9 @@ FACEBOOK | TWITTER | INSTAGRAM | NETFLIX | PAYPAL
 
 ## CREDIT:-
 * HiddenEye ( For there Phishing Pages ) 
+## How To Use
+ 1. After Creating a Firebase Project Create a new Web app. 1. Now copy the Firebase Config of the Web app 
+
 
 ## Consider Donating 
 * [PayPal](https://paypal.me/SaritaChaubey/)
