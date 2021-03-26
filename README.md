@@ -19,9 +19,9 @@ FACEBOOK | TWITTER | INSTAGRAM | NETFLIX | PAYPAL
 
 ## How To Use
  1. After Creating a Firebase Project Create a new Web app.
- 2. Now copy the Firebase Config of the Web app.
- 3.After that go to Realtime Databse Menu and Create New DataBase.
-4.Go to Realtime Database rules and set ```.read``` and ```.write``` to ```true```
+ 1. Now copy the Firebase Config of the Web app.
+ 1.After that go to Realtime Databse Menu and Create New DataBase.
+ 1.Go to Realtime Database rules and set ```.read``` and ```.write``` to ```true```
 
 
 ## Consider Donating 
