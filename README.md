@@ -14,7 +14,7 @@ FACEBOOK | TWITTER | INSTAGRAM | NETFLIX | PAYPAL
 
 
 
-## CREDIT:-
+## CREDITS
 * HiddenEye ( For there Phishing Pages ) 
 
 ## How To Use
