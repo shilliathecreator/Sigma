@@ -42,7 +42,7 @@ FACEBOOK | TWITTER | INSTAGRAM | NETFLIX | PAYPAL
   TO BE USED FOR EDUCATIONAL PURPOSES ONLY
 </p>
 
-The use of the Omega is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. Please read [LICENSE](LICENSE).
+The use of the Sigma is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. Please read [LICENSE](LICENSE).
 
 
 
