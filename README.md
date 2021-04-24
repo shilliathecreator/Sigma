@@ -33,7 +33,7 @@ FACEBOOK | TWITTER | INSTAGRAM | NETFLIX | PAYPAL
 ### Receiving Data Through Discord
  1. Click on the :gear: symbol on the channel in which you want to receive the data.
  1. Go to integrations and create a Webhook and Copy the Webhook URL.
- 1. Now open ``` discord.js ``` file and paste your Webhook URL.
+ 1. Now open ``` discord.js ``` file and paste your Webhook URL, and save it.
  1. Everything is now ready , you will now receive the data through Discord also.
 
 ## Consider Donating 
