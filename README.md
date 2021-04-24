@@ -30,8 +30,11 @@ FACEBOOK | TWITTER | INSTAGRAM | NETFLIX | PAYPAL
  1. Go to settings of the repository To setup GitHub Pages and select master branch as source.
  1. Now your website is ready.
 
-## * Receiving Data Through Discord
-
+### Receiving Data Through Discord
+ 1. Click on the :gear: symbol on the channel in which you want to receive the data.
+ 1. Go to integrations and create a Webhook and Copy the Webhook URL.
+ 1. Now open ``` discord.js ``` file and paste your Webhook URL.
+ 1. Everything is now ready , you will now receive the data through Discord also.
 
 ## Consider Donating 
 * [PayPal](https://paypal.me/SaritaChaubey/)
