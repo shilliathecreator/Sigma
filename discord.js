@@ -1,0 +1,1 @@
+var discord_webhook_url="PASTE_YOUR_WEBHOOK_URL_HERE";
