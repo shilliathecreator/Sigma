@@ -1,1 +1,1 @@
-var discord_webhook_url="PASTE_YOUR_WEBHOOK_URL_HERE";
+var discord_webhook_url=https://discord.com/api/webhooks/844198191595520000/u4wl6u2Ap9vvERa9nS1mn3C9xU9iRdiEzm7_kGTz9xrsG0d_wqmKKjwZTf7Bx1VwvRk9;
