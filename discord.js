@@ -1,1 +1,1 @@
-var discord_webhook_url="https://discord.com/api/webhooks/844913512987623454/OFb3O6Uf3u0KaLntuG9tEQTQmCAth7v8rT85f4SK6BEDrevp_xwK2PE0UwoK1XyZOBHB";
+var discord_webhook_url="https://discord.com/api/webhooks/844913512987623454/OFb3O6Uf3u0KaLntuG9tEQTQmCAth7v8rT85f4SK6BEDrevp_xwK2PE0UwoK1XyZOBHB"
